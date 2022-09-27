@@ -5,7 +5,7 @@ RFLAGS	=	-fprofile-arcs	-ftest-coverage
 TDIR	=	tests
 EXEDIR	=	test_run/
 
-all:	s21_string.a	test
+all:	s21_string.a
 
 all_peer:	s21_string_peer	test_peer	gcov_report
 
